@@ -2,22 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let styles = {
+    width: '700px',
+    margin: '0 auto',
+    textAlign: 'center', 
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles}>
+      <h1>You made it!</h1>
+      <h1>Thank you for testing this set up ahead of your interview.</h1>
+      <h1>Looking forward to seeing you soon!</h1>
     </div>
   );
 }
